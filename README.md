@@ -29,7 +29,7 @@ This script processes each text file in the entire MIMIC database in two steps, 
 * The script prompts you to specify the location of **mimic-cxr-reports.zip**.
 * It then unzips and extracts all files and folders into a new folder named *Zip Extraction* in the current working directory.
 * A dataframe is created with the following columns, representing the file structure of the MIMIC database, with a full working path directory of each text file in the "merged_path" column.
-![pathsDF](https://github.com/andrewmichelson/mimic-cxr/blob/master/Images/pathDF.PNG)
+![pathsDF](Images/pathDF.PNG)
 
 * This dataframe is then saved as *paths.csv* to a new folder "CSV Files"
 
