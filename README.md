@@ -52,7 +52,7 @@ This script processes each text file in the entire MIMIC database in two steps, 
 This file contains the main text mining algorithm. 
 
 * Using **reportText_replacedWords.csv** generated in **openFiles_and_replaceText.py**, a dataframe is generated with the following columns as below:
-![predictionsDF](https://github.com/andrewmichelson/mimic-cxr/blob/master/Images/predictionsDF.PNG)
+![predictionsDF](Images/predictionsDF.PNG)
 
 * The "ett" column represents the final prediction for each radiology report in the MIMIC Database.
 
